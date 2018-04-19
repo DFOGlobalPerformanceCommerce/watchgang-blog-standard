@@ -25,10 +25,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-    display: block;
-}
-
 // responsive images by default
 img {
     display: block;
@@ -183,6 +179,9 @@ ul {
                 font-size: 1.3em;
                 h1 {
                     font-size: 2.5em;
+                }
+                a {
+                    color: $wg-orange;
                 }
             }
             .blog-watch-slider {
