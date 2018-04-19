@@ -2,3 +2,59 @@
     width: 98%;
     margin: 0 auto;
 }
+
+.content-wrap {
+    flex-direction: column;
+    .blog {
+        max-width: 100%;
+        margin: 0;
+        .blog-inner {
+            .blog-copy {
+                font-size: 1.1em;
+                h1 {
+                    font-size: 1.4em;
+                }
+                h3 {
+                    font-size: 1.2em;
+                }
+                p {
+                    
+                }
+            }
+            .blog-watch-slider {
+                padding: 0em;
+            }
+        }
+    }
+    .sidebar {
+        margin: 0;
+        max-width: 100%;
+    }
+}
+.footer {
+    flex-direction: column;
+    .img-wrap {
+        padding: 1em 0;
+        margin: 0;
+    }
+    .social {
+        margin: 0 auto;
+        height: 30px;
+    }
+    .footer-nav {
+        margin:  auto;
+        display: block;
+        .footer-nav-list {
+            align-items: center;
+            li {
+                margin: 0 .5em;
+                a {
+                    font-size: .8em;
+                }
+            }
+            li:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+}

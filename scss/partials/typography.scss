@@ -63,8 +63,14 @@ $serif: "Georgia", Cambria, Times New Roman, Times, serif;
 // $libre-baskerville: 'Libre Baskerville', serif;
 
 // Roboto
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700');
+// @import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700');
 
-$roboto: 'Roboto', sans-serif;
+// $roboto: 'Roboto', sans-serif;
 
+// Alfa Slab One & Nunito
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Gentium+Book+Basic:400,400i,700|Poppins:400,700,900');
+
+$alfa: 'Alfa Slab One', cursive;
+$gentium: 'Gentium Book Basic', serif;
+$poppins: 'Poppins', sans-serif;;
 
